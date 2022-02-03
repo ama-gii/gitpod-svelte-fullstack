@@ -6,4 +6,10 @@ tasks:
 
 ports:
   - port: 3000
-    onOpen: open-browser
+    onOpen: open-preview
+
+github:
+  prebuilds:
+    master: true
+    pullRequests: true
+    branches: true
